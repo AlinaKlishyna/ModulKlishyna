@@ -8,11 +8,12 @@ public class Student extends Person {
     }
 
 
-    @Override
-    public void toTeach(String subject) {
+  @Override
+    public void toTeach(String subject) throws Exception {
+        if(subject==null) throw new Exception();
         System.out.println("Я вивчаю предмет: " + subject);
     }
-
+    
     @Override
     public void learn() {
         System.out.println("Я студент! Я навчаюсь!");
