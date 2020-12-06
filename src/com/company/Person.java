@@ -4,7 +4,6 @@ public abstract class Person implements Scientist {
     private String name;
     private int age;
 
-
     public Person(){
         super();
     }

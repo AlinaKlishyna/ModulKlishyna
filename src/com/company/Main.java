@@ -3,7 +3,6 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-
         Person student = new Student("Аліна",4);
         Person teacher = new Teacher("Володимир",28);
         Person dean = new Dean("Алексей",49);
